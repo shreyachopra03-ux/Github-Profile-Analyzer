@@ -14,6 +14,13 @@ app.use(express.json());
 
 app.use('/api/v1/analyzer', analyzerRoutes);
 
+app.get('/', (req, res) => {
+  res.status(200).json({ 
+    message: 'Github Profile Analyzer API is running!',
+    endpoints: { health: '/health', analyzer: '/api/v1/analyzer' }
+  });
+});
+
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'OK', message: 'Server is running perfectly!' });
 });
