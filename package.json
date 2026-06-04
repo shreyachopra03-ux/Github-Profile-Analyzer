@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "axios": "^1.17.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1",
+    "nodemon": "^3.1.14",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.3"
+  },
+  "name": "githubprofileanalyzer",
+  "version": "1.0.0",
+  "description": "GITHUB PROFILE ANALYZER PROJECT",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+   "start": "node server.js",
+  "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyachopra03-ux/Github-Profile-Analyzer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyachopra03-ux/Github-Profile-Analyzer/issues"
+  },
+  "homepage": "https://github.com/shreyachopra03-ux/Github-Profile-Analyzer#readme"
+}
