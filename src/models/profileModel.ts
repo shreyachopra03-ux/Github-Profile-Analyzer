@@ -1,4 +1,4 @@
-import { pool } from '../config/db.js';
+import pool from '../config/db.js';
 import { IProfileInsight } from '../interfaces/profileInterface.js';
 
 const ProfileModel = {
